@@ -1,0 +1,263 @@
+@charset "utf-8";
+
+@media screen and (max-width : 600px ){
+	.container, .description, .content, .footer-content, form, .contact-form input, .contact-form textarea, .contact-form button {
+		width: 100%;
+		flex: 100%;
+	}
+	.contact-form h3, .contact-form label, img {
+		width: 100%;
+		flex: 100%;
+	}
+	.contact-form {
+		width: 64%;
+		margin-top: 0;
+		flex: 100%;
+	}
+	nav, nav a, .topnav, .topnav a {
+		margin: 1px;
+		width: 80%;
+		padding: 1px;
+		flex: 100%;
+	}
+}
+
+/* Global Styles */
+
+body {
+	margin: 5px auto;
+	width: auto;
+	overflow-x: hidden;
+	background-color: #B4C3C8;
+}
+
+header {
+	margin: 5px auto;
+	padding: 0px 0px 20px 0px;
+	width: auto;
+	background: #B4C3C8;
+	text-align: center;
+	display: block;
+}
+
+footer {
+	margin: 0px;
+	padding: 20px;
+	width: auto;
+	background: #B4C3C8;
+	text-align: center;
+	display: block;
+	border-radius: 20px;
+}
+
+.footer-content {
+	text-align: center;
+}
+
+hr {
+	background-color: darkslategrey;
+	height: 3px;
+	border: none;
+}
+
+h1 {
+	margin: 15px;
+	padding: 0px;
+	font-size: 35px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: dimgrey;
+	text-align: left;
+	
+}
+
+h2 {
+	position: relative;
+	margin: 15px;
+	font-size: 30px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: dimgrey;
+	text-align: center;
+
+}
+
+p {
+	margin: 2px;
+	font-size: 14px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: #2E413F;
+	text-align: center;
+}
+
+section {
+	position: center;
+	padding: 10px;
+	width: 960px;
+	margin: 0px auto;
+	text-align: center;
+	border: medium;
+	border-style: solid;
+	background-color: #BCDAE2;
+	border-color: darkslategrey;
+}
+
+article {
+	position: center;
+	padding: 10px;
+	width: 1000px;
+	margin: 0px auto;
+	text-align: center;
+	border: medium;
+	border-style: solid;
+	background-color: #B4C3C8;
+	border-color: antiquewhite;
+	
+}
+
+nav {
+	display: flex;
+    justify-content: center;
+    padding: 12px 15px;
+    background-color: #BCDAE2;
+    align-items: center;
+	border-radius: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    color: darkslategrey;
+}
+
+.topnav {
+	overflow: hidden;
+	width: auto;
+	margin: 0;
+	background-color: #BCDAE2;
+	border-radius: 20px;
+}
+
+.topnav a {
+	display: flex;
+	color: darkslategrey;
+	text-align: center;
+	padding: 12px 25px;
+	text-decoration: none;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+.topnav a:hover {
+	background-color: darkslategrey;
+	color: antiquewhite;
+}
+
+.topnav a.active {
+	background-color: antiquewhite;
+	color: darkslategrey;
+}
+
+img {
+	border-radius: 10px;
+}
+
+img:hover {
+	background-color: #F7EECF;
+	opacity: 80%;
+}
+
+a {
+	display: block;
+	text-align: center;
+	padding: 10px 15px;
+	text-decoration: none;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: darkslategrey;
+}
+
+a:hover {
+	background-color: darkslategrey;
+	color: antiquewhite;
+	border-radius: 20px;
+}
+
+.container {
+	margin: 10px auto;
+	width: 100%;
+	position: absolute;
+	border: medium;
+	border-radius: 20px;
+	background: #BCDAE2;
+}
+
+.description {
+	position: relative;
+	padding: 10px;
+	width: 90%;
+	margin: 0px auto;
+	text-align: center;
+	border: 2px medium;
+	border-radius: 20px;
+	border-style: solid;
+	background-color: antiquewhite;
+	border-color: darkslategrey;
+}
+
+.content {
+	width: 50%;
+	margin: 15px auto;
+	padding: 20px;
+	justify-content: center;
+	border: medium;
+	border-radius: 20px;
+	border-style: solid;
+	background-color: #BCDAE2;
+	border-color: darkslategrey;
+}
+
+.contact-form {
+	background-color: antiquewhite;
+    padding: 40px;
+    padding-right: 60px;
+    max-width: 600px;
+    margin: 20px auto;
+	border: medium;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: darkslategrey;
+}
+
+.contact-form h3 {
+	color: darkslategray;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 25px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+.contact-form label {
+	display: block;
+	margin-top: 10px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	text-color: #2f4f4f;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid darkslategrey;
+    border-radius: 20px;
+}
+
+.contact-form button {
+    width: 40%;
+    padding: 15px;
+    margin-top: 20px;
+	margin-left: 15px;
+    background-color: #B4C3C8;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    text-color: #2f4f4f;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
